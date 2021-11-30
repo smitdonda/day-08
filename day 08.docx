@@ -1,0 +1,37 @@
+1.	Write a “person” class to hold all the details.
+
+class person {
+    constructor(fname,lname,age,birth) 
+    {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.birth = birth;
+        console.log(this.fname, this.lname, this.age,this.birth)
+    }
+}
+let details = new person ("donda","smit",16,"13/6/2001");
+
+
+
+
+2.	write a class to calculate uber price.
+
+class uber 
+{
+    constructor(name,type,km,pricekm){
+        this.name = name,
+        this.type = type,
+        this.km = km,
+        this.pricekm =pricekm
+    }
+        getotel(){
+            return this.km * this.pricekm
+        }
+        
+}
+let price= new uber("akash","car",20,10)
+
+console.log(price.getotel());
+
+
