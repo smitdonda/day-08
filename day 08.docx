@@ -12,7 +12,8 @@ class person {
 }
 let details = new person ("donda","smit",16,"13/6/2001");
 
-
+Output:
+donda smit 16 13/6/2001
 
 
 2.	write a class to calculate uber price.
@@ -33,5 +34,8 @@ class uber
 let price= new uber("akash","car",20,10)
 
 console.log(price.getotel());
+
+Output:
+200
 
 
